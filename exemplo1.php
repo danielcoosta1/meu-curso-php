@@ -21,11 +21,17 @@
     <p class="mensagem">
         <?php
 
-        echo "Olá, " . $nomeUsuario . "! Seja bem-vinda ao mundo do PHP.";
+        echo "Olá, " . $nomeUsuario . "! Seja bem-vinda ao mundo do PHP.<br>";
 
         echo "Esta mensagem foi gerada com PHP!";
         ?>
     </p>
+
+    <form action="teste.php" method="POST">
+        <input type="text" name="nome" placeholder="Digite seu nome">
+        <input type="text" name="idade" placeholder="Digite sua idade">
+        <input type="submit" value="Enviar"> 
+    </form>
 
 </body>
 
