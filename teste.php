@@ -13,6 +13,13 @@
     $nome = $_POST['nome'];
     $idade = $_POST['idade'];
     echo "Olá, $nome! Você tem $idade anos.";
+
+    if ($idade>=18) {
+        echo "<p>Você tem " . $idade . " anos, portanto, é MAIOR de idade.</p>";
+    } else {
+        echo "<p>Você tem " . $idade . " anos, portanto, é MENOR de idade.</p>";
+    }
+    
     ?>
 
     <br>
