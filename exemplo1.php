@@ -29,7 +29,7 @@
 
     <form action="teste.php" method="POST">
         <input type="text" name="nome" placeholder="Digite seu nome">
-        <input type="text" name="idade" placeholder="Digite sua idade">
+        <input type="number" name="idade" placeholder="Digite sua idade">
         <input type="submit" value="Enviar"> 
     </form>
 
